@@ -20,7 +20,7 @@ The page is filled with popups, paywalls, scroll-locks and more events triggered
 
 ## Solution
 
-Using the devtools redirects you to a youtube page (what could it be :thinking:). Curl the URL also doesn't give you the flag, just the empty html container. So, at first, I thought about using a prerender service (like [this one]).
+Using the devtools redirects you to a youtube page ([what could it be] :thinking:). Curl the URL also doesn't give you the flag, just the empty html container. So, at first, I thought about using a prerender service (like [this one]).
 
 If you curl a pre-rendered page, you get the html modified by its scripts actions instead of the raw html. Crawlers use it to index SPAs in search engines.
 
@@ -30,7 +30,7 @@ curl http://localhost:3000/https://pay2win.chall.pwnoh.io
 
 Resulted in this:
 
-
+![prerendered.png](prerendered.png)
 
 This is probably the flag, but the char's are out of order. We could bruteforce all possible combinations of this chars, but it's actually very easier.
 
@@ -98,3 +98,4 @@ FLAG:
 ```buckeye{h0ly_sh1t_wh4t_th3_h3ck_1s_th1s_w31rd_ch4ll3ng3}```
 
 [this one]: https://docs.prerender.io/article/14-test-it
+[what could it be]: https://www.youtube.com/watch?v=dQw4w9WgXcQ
