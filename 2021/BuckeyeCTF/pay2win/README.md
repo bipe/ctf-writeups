@@ -1,4 +1,4 @@
-# bunnydance
+# pay2win
 
 **Category**: Web \
 **Points**: 50 (247 solves) \
