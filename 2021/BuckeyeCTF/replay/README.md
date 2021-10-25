@@ -51,7 +51,6 @@ Instead of creating a python script to send the exploit and run the scripted com
 
 Import pwn, create a connection with the victim, store the hex stream of the payload in a variable and send it using ```bytes.fromhex(variable)```:
 
-attack.png
 ```python
 bipe@ava40l:~$ python3
 Python 3.8.10 (default, Sep 28 2021, 16:10:42) 
