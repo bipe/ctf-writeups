@@ -32,7 +32,7 @@ Resulted in this:
 
 ![prerendered.png](prerendered.png)
 
-This is probably the flag, but the char's are out of order. We could bruteforce all possible combinations of this chars, but it's actually very easier.
+This is probably the flag, but the char's are out of order. We could bruteforce all possible combinations of these chars, but it's actually very easier.
 
 Going back to the devtools, if a breakpoint is set at the beginning of the js script, you can change it and the changes will be executed while you don't refresh the page.
 
