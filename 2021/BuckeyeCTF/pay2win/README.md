@@ -1,6 +1,6 @@
 # pay2win
 
-**Category**: Web \
+**Category**: web \
 **Points**: 50 (247 solves) \
 **Author**: qxxxb
 
@@ -10,7 +10,7 @@ Kyle started an online magazine (The Daily Kyle) and published one of my article
 
 Don't worry, the article literally contains the flag in plaintext, but if you want to read it you'll have to figure out how to bypass the paywall.
 
-Difficulty: Easy
+Difficulty: easy
 
 `https://pay2win.chall.pwnoh.io`
 

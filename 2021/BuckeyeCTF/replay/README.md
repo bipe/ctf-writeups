@@ -1,6 +1,6 @@
 # replay
 
-**Category**: Misc \
+**Category**: misc \
 **Points**: 30 (184 solves) \
 **Author**: qxxxb
 
@@ -10,7 +10,7 @@ Somebody pwned my app! Luckily I managed to capture the network traffic of their
 
 Attachments: ```replay.pcap```
 
-Difficulty: Easy
+Difficulty: easy
 
 ## Overview
 

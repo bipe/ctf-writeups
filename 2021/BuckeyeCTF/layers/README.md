@@ -1,6 +1,6 @@
 # layers
 
-**Category**: Misc \
+**Category**: misc \
 **Points**: 30 (144 solves) \
 **Author**: qxxxb
 
@@ -8,7 +8,7 @@
 
 Check out my brand new docker repo `https://hub.docker.com/r/qxxxb/layers`
 
-Difficulty: Easy
+Difficulty: easy
 
 ## Overview
 
