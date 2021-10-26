@@ -1,0 +1,10 @@
+host: canary.chall.pwnoh.io
+user-agent: axios/0.23.0
+accept: application/json, text/plain, */*
+cookie: auth=d5692713322d63c8627ce39151943b82
+x-forwarded-for: 18.217.199.42
+x-forwarded-host: canary.chall.pwnoh.io
+x-forwarded-port: 443
+x-forwarded-proto: https
+x-forwarded-server: ip-10-0-0-237.us-east-2.compute.internal
+accept-encoding: gzip
