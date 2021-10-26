@@ -42,12 +42,12 @@ Right click on it, Follow -> TCP Stream gives us a very clear understanding of w
 ![tcpstream.png](tcpstream.png)
 
 
-Sending the same payload via netcat won't work, the connection will close. So we can use pwntools connection (```pwnlib.tubes```). Before, let's export the exploit bytes (just copy or export the RAW data):
+Sending the same payload via netcat won't work, the connection will close. So we can use pwntools connection (```pwnlib.tubes```). But first, let's export the exploit bytes (just copy or export the RAW data):
 
 ![exporting.png](exporting.png)
 
 
-Instead of creating a python script to send the exploit and run the scripted commands, I used the interactive python console for the legit pwn feeling.
+Instead of creating a python script to send the exploit and run the scripted commands, I used the interactive python console for the legit pwn experience.
 
 Import pwn, create a connection with the victim, store the hex stream of the payload in a variable and send it using ```bytes.fromhex(variable)```:
 
